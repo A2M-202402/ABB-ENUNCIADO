@@ -16,7 +16,7 @@ typedef struct nodo {
 struct abb {
 	size_t nodos;
 	nodo_t *raiz;
-	int (*comparador)(void*, void*);
+	int (*comparador)(void *, void *);
 };
 
 #endif // ABB_ESTRUCTURA_PRIVADA_H_
